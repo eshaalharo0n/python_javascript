@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #A school wants to automate the process of calculating student results.
 
 #Write a program in Python that takes a student's information and generates a result card showing the total marks, percentage, grade, and pass/fail status.
@@ -37,3 +38,62 @@ if 50<=percentage< 60 :
     print("Result: fail")
 else :
     print("Result: pass")    
+=======
+import random
+
+
+words = ["cat", "dog", "sun", "ball", "fish", "cake", "star", "tree"]
+
+
+secret_word = random.choice(words)
+
+
+chances = 6
+
+guessed_letters = []
+
+print("Welcome to Hangman!")
+print("Guess the word, one letter at a time.")
+print("You have", chances, "chances. Good luck!")
+
+
+while chances > 0:
+
+    
+    display = ""
+    for letter in secret_word:
+        if letter in guessed_letters:
+            display = display + letter + " "
+        else:
+            display = display + "_ "
+    print("\nWord: ", display)
+
+    
+    all_guessed = True
+    for letter in secret_word:
+        if letter not in guessed_letters:
+            all_guessed = False
+    if all_guessed:
+        print("You WIN! The word was:", secret_word)
+        break
+
+    
+    guess = input("Guess a letter: ").lower()
+    if guess in guessed_letters:
+        print("You already guessed that letter. Try another one!")
+        continue
+
+
+    guessed_letters.append(guess)
+
+    
+    if guess in secret_word:
+        print("Good job! That letter is in the word.")
+    else:
+        chances = chances - 1
+        print("Oops! Wrong letter. Chances left:", chances)
+
+
+if chances == 0:
+    print("\nGame Over! The word was:", secret_word)
+>>>>>>> eda9ce3 (assignemt python)
