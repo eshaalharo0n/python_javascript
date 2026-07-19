@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "book_name": "FAMOUS FIVE",
+        "author": "ENID BLYTON",
+        "category": "adventure",
+        "availability": "yes"
+    },
+    {
+        "id": 2,
+        "book_name": "HARRY POTTER",
+        "author": "J.K. ROWLING",
+        "category": "fantasy",
+        "availability": "no"
+    },
+    {
+        "id": 3,
+        "book_name": "THE HUNGER GAMES",
+        "author": "SUZANNE COLLINS",
+        "category": "dystopian",
+        "availability": "no"
+    },
+    {
+        "id": 4,
+        "book_name": "TO KILL A MOCKINGBIRD",
+        "author": "HARPER LEE",
+        "category": "classic",
+        "availability": "yes"
+    },
+    {
+        "id": 5,
+        "book_name": "RAINBOW FAIRIES",
+        "author": "DAPHNE PIERCE",
+        "category": "fantasy",
+        "availability": "no"
+    },
+    {
+        "book_name": "Atomic Habits",
+        "author": "James Clear",
+        "category": "Self-Help",
+        "availability": "yes",
+        "id": 6
+    }
+]

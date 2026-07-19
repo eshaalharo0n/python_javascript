@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "eshaal",
+        "age": 15,
+        "city": "karachi",
+        "address": "abc"
+    },
+    {
+        "address": "qrs",
+        "age": 14,
+        "city": "islamabad",
+        "id": 3,
+        "name": "ahmed"
+    }
+]
