@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EDIT BOOK DETAILS</title>
+        <link rel="stylesheet" href="app.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div id="navbar"> </div>
+        <center>
+            <h2>Update BOOK DETAILS:</h2>
+        </center>
+        <div class="container"></div>
+       <div id="edit_toast"></div>
+        <table>
+            <tr>
+                <td><label for="book-name">Book Name:</label> </td>
+                <td><input type="text" id="book-name" placeholder="Book name"></td>
+            </tr>
+            <tr>
+               <td><label for="author">Author:</label> </td>
+                <td><input type="text" id="author" placeholder="Author"> </td> 
+            </tr>
+            <tr>
+                <td><label for="category">Category:</label> </td>
+                <td><input type="text" id="category" placeholder="Category" ></td>
+                
+            </tr>
+            <tr>
+                <td><label for="available">Availaibility:</label> </td>
+                <td><input type="text" id="available" placeholder="yes/no"></td>
+            </tr>
+            
+            <tr>
+                <td><button class="danger" id="btn_clear" onclick="onClear()">Clear</button></td>
+               <td> <button class="success" id="btn_add" onclick="showUpdate('Updated Successfully!')">
+    Update
+</button>
+</td>
+            </tr>
+        </table>
+    </body>
+</html>
+        
