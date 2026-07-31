@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="app.css">
         <script src="app.js"></script>
     </head>
-    <body>
+    <body onload = "load()">
         <div id="navbar"> </div>
         <center>
             <h2>VIEW BOOK DETAILS:</h2>
         </center>
+        <div id="alrt-message" ></div>
         <div class="container"></div>
-        <table>
+        <table id="tbl_view">
             <thead>
                 <tr>
                     <th>Book Name:</th>
@@ -75,18 +76,10 @@
                     </td>
         </tr>
 
-        <tr>
-            <td>Atomic Habits</td>
-            <td>James Clear</td>
-            <td>personal-development</td>
-            <td>Yes</td>
-            <td>
-                        <a href="edit.html"><button class="success">Edit</button></a>
-                        <button class="danger">Delete</button>
-                    </td>
-        </tr>
+        
                 
 
             </tbody>
 
         </table>
+        </body>

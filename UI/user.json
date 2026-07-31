@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "username": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin123",
+        "phone": "03001234567",
+        "join_date": "26-07-2026",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "username": "Eshaal",
+        "email": "eshaal@gmail.com",
+        "password": "eshaal-23",
+        "phone": "03111234567",
+        "join_date": "26-07-2026",
+        "role": "user"
+    }
+]
